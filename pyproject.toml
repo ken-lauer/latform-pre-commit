@@ -1,0 +1,4 @@
+[project]
+name = "latform-pre-commit"
+version = "0.0.0"
+dependencies = ["latform>=0.1.2"]

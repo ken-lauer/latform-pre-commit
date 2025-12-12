@@ -1,0 +1,9 @@
+- id: latform-format
+  name: latform format
+  description: "Run 'latform' for to format Bmad lattice files"
+  entry: latform -i
+  files: '.*\.bmad'
+  language: python
+  args: []
+  require_serial: false
+  additional_dependencies: []
