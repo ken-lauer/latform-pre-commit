@@ -9,7 +9,7 @@ To run latform's formatter via pre-commit, add the following to your `.pre-commi
 ```yaml
 repos:
   - repo: https://github.com/ken-lauer/latform-pre-commit
-    rev: v0.1.1
+    rev: v0.1.2
     hooks:
       - id: latform-format
 ```
